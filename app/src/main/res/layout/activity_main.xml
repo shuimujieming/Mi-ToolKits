@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/mframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        >
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_weight="80"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/team_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_team" />
+        <RadioGroup
+            android:id="@+id/btn0"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/btn1"
+
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="常用功能"
+                />
+
+            <RadioButton
+                android:id="@+id/btn2"
+
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="状态栏修改"
+                />
+
+            <RadioButton
+                android:id="@+id/btn3"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="关于设置"
+                />
+        </RadioGroup>
+
+
+    </LinearLayout>
+</LinearLayout>

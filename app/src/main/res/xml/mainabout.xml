@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="水木皆Ming"
+	android:key="about_options"
+	>
+
+	<PreferenceCategory android:key="relative">
+		<Preference
+			android:key="device_name"
+			android:title="设备型号"
+			/>
+		<Preference
+			android:key="device_type"
+			android:title="设备代号"
+			/>
+		<Preference
+			android:key="ming"
+			android:layout="@layout/teamtext"
+			/>
+		<Preference
+			android:title="水木皆Ming"
+			android:key="shuimujieming"
+			android:icon="@mipmap/ic_ming"
+			android:summary="ROM制作人、高级设置维护者">
+			<!--			<intent android:action="android.intent.action.VIEW"-->
+			<!--			android:data="http://www.coolapk.com/u/1144501" />-->
+
+		</Preference>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:key="readme"
+		android:title="温馨提示">
+		<PreferenceScreen
+			android:key="group"
+			android:icon="@mipmap/ic_team"/>
+		<PreferenceScreen
+			android:key="help"
+			android:icon="@mipmap/ic_help"/>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+        <!-- Customize your theme here. -->
+
+    <style name="Animation.PopupWindow" parent="@android:style/Animation" />
+    <style name="Animation_PopupWindow_ActionMode" parent="@style/Animation.PopupWindow">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
